@@ -35,6 +35,7 @@ export default function App() {
           { id: Date.now(), title: newTodo, completed: false },
         ]
       })
+      setNewTodo("");
     }
     
 
