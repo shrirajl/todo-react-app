@@ -1,5 +1,4 @@
 
-import { useState } from "react";
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
@@ -11,7 +10,6 @@ import IconButton from '@mui/material/IconButton';
 import DeleteIcon from '@mui/icons-material/Delete';
 import "./styles.css"
 export function CheckboxList({ todos, onCompletedToggle, deleteTodo }) {
-  const [checked, setChecked] = useState([0]);
 
   return (
     <div className="topMargin">

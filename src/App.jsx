@@ -70,7 +70,7 @@ export default function App() {
               onChange={e => setNewTodo(e.target.value)}
               autoFocus={true}
               type="text"
-              id="item" />
+               />
             <Button variant="contained" className="topMargin" onClick={() => addTodo()}>Add</Button>
           </Stack>
           <CheckboxList todos={todos} onCompletedToggle={onCompletedToggle} deleteTodo={deleteTodo}></CheckboxList>
